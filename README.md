@@ -1,10 +1,10 @@
-# workspaces
-AWS Workspaces information
+# Handy AWS Workspaces Information
+
 
 ## Using the PCioP client with USB devices
 
 * The USB passthrough only works with the Windows software PCioP client.
-* Also Within the Workspace Windows instance itself a specific Teradici Group Policy setting must be made
+* Also within the Workspace Windows instance itself a specific Teradici Group Policy setting must be made
 
 Download the PCioP client:
 
