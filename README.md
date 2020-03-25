@@ -26,16 +26,16 @@ The template file is imported.
 
 ### Enabling USB part 2:
 
-> Open gpedit.msc and press Enter.
-> In the left pane, navigate to
-> Local Computer Policy
->> Computer Configuration
->> Administrative Templates
->> Classic Administrative Templates (ADM)
->> PCoIP Session Variables
->> Overridable Administrator Defaults
+* Open gpedit.msc and press Enter.
+* In the left pane, navigate to
+  * Local Computer Policy
+  - Computer Configuration
+  - Administrative Templates
+  - Classic Administrative Templates (ADM)
+  - PCoIP Session Variables
+  - Overridable Administrator Defaults
 
-Double-click Configure PCoIP USB allowed and unallowed device rules. The variable editor appears.
+* Double-click Configure PCoIP USB allowed and unallowed device rules. The variable editor appears.
 
 [//]: # (Pull in image this way to control size in markdown)
 <img width="320" height="250" src="https://github.com/awsandy/workspaces/raw/master/img/configure-usb-devices.png" />
