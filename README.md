@@ -26,6 +26,12 @@ The template file is imported.
 
 
 
+[//]: # (Pull in image this way to control size in markdown)
+<img width="320" height="250" src="https://github.com/awsandy/workspaces/raw/master/img/configure-usb-devices.png" />
+
+
+
+
 
 ## References
 
