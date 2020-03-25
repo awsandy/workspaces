@@ -1,0 +1,2 @@
+# workspaces
+AWS Workspaces information
