@@ -1,12 +1,12 @@
 # Handy AWS WorkSpaces Information
 
 
-## Using the PCiOP client with USB devices
+## Using the PCoIP client with USB devices
 
-* The USB passthrough only works with the Windows software PCiOP client.
+* The USB passthrough only works with the Windows software PCoIP client.
 * Also within the WorkSpace Windows instance itself a specific Teradici Group Policy setting must be made
 
-Download the PCioP client:
+Download the PCoIP client:
 
 https://docs.teradici.com/find/product/software-and-mobile-clients/2019.05/software-client-for-windows/20.01.1
 
@@ -55,7 +55,7 @@ The change will be effective on the next PCoIP connection to the host workstatio
 
 ## Adjusting the hostname / computer name
 
-At the time of writing (April 2020) there is a quirk with the Teradici PCiOP client that means it will fail to connect to an AWS WorkSpace if that WorkSpace's hostname (Linux) or computer name (Windows) begins with a number.
+At the time of writing (April 2020) there is a quirk with the Teradici PCoIP client that means it will fail to connect to an AWS WorkSpace if that WorkSpace's hostname (Linux) or computer name (Windows) begins with a number.
 
 ### Workaround
 
