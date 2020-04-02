@@ -62,6 +62,11 @@ At the time of writing (April 2020) there is a quirk with the teradici PCioP cli
 Connect to the workspace using the AWS WorkSpaces client and change the hostname or computer name so it begins with a letter.
 
 
+For Windows 10, you can do this via Settings, Suystem, About & Rename this PC:
+
+[//]: # (Pull in image this way to control size in markdown)
+<img width="320" height="250" src="https://github.com/awsandy/workspaces/raw/master/img/win10-cn.png" />
+
 ## References
 
 ### Teradici
