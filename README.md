@@ -85,4 +85,5 @@ https://d1.awsstatic.com/whitepapers/workspaces-poc-guide.pdf
 Best practices:
 https://d0.awsstatic.com/whitepapers/workspaces/Best_Practices_for_Deploying_Amazon_WorkSpaces.pdf
 
-Ingtegrating Microsoft Azure MFA Server with Amazon WorkSpaces: https://aws.amazon.com/blogs/desktop-and-application-streaming/integrating-microsoft-azure-mfa-server-with-amazon-workspaces/
+Ingtegrating Microsoft Azure MFA Server with Amazon WorkSpaces: 
+https://aws.amazon.com/blogs/desktop-and-application-streaming/integrating-microsoft-azure-mfa-server-with-amazon-workspaces/
