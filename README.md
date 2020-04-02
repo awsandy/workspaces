@@ -1,10 +1,10 @@
-# Handy AWS Workspaces Information
+# Handy AWS WorkSpaces Information
 
 
 ## Using the PCioP client with USB devices
 
 * The USB passthrough only works with the Windows software PCioP client.
-* Also within the Workspace Windows instance itself a specific Teradici Group Policy setting must be made
+* Also within the WorkSpace Windows instance itself a specific Teradici Group Policy setting must be made
 
 Download the PCioP client:
 
@@ -53,12 +53,31 @@ To globally allow all USB devices, add the following authorization rule:
 Close the Local Group Policy editor.
 The change will be effective on the next PCoIP connection to the host workstation.
 
+## Adjusting the hostname / computer name
+
+At the time of writing (April 2020) there is a quirk with the teradici PCioP client that means it will fail to connect to an AWS WorkSpace if that WorkSpace's hostname (Linux) or computer name (Windows) begins with a number.
+
+### Workaround
+
+Connect to the workspace using the AWS WorkSpaces client and change the hostname or computer name 
+
 
 ## References
 
-Reference for adding the Admin Template (on the AWS Session)
+### Teradici
 
+Reference for adding the Admin Template (on the AWS Session):
 http://www.teradici.com/web-help/ter1505005/2.8/Content/_common_topics/Configuration/Windows/importing_the_admin_template_file.htm
 
-GPO Setting (on the AWS Session)
+GPO Setting (on the AWS Session):
 http://www.teradici.com/web-help/ter1505005/2.8/default.htm#_common_topics/Features/Windows/enable_usb_redirect.htm%3FTocPath%3DConfiguring%2520the%2520PCoIP%2520Graphics%2520Agent%7C_____4
+
+### WorkSpaces
+
+Proof of Concept:
+https://d1.awsstatic.com/whitepapers/workspaces-poc-guide.pdf
+
+Best practices:
+https://d0.awsstatic.com/whitepapers/workspaces/Best_Practices_for_Deploying_Amazon_WorkSpaces.pdf
+
+
