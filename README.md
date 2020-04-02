@@ -59,7 +59,7 @@ At the time of writing (April 2020) there is a quirk with the teradici PCioP cli
 
 ### Workaround
 
-Connect to the workspace using the AWS WorkSpaces client and change the hostname or computer name 
+Connect to the workspace using the AWS WorkSpaces client and change the hostname or computer name so it begins with a letter.
 
 
 ## References
